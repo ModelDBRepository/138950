@@ -23,7 +23,6 @@ JH Goldwyn and E Shea-Brown (2011). The what and where of channel noise in the H
 ```
 
 ## Changelog
----
 20150416 A minor typo fix sent by Josh Goldwyn where a matrix valued function AK (line 166) had its second row fixed from  
 `4*alphan(V), -3*alphan(V)-betan(V), 0 , 0, 0;`  
 corrected to  
