@@ -22,11 +22,10 @@ JH Goldwyn and E Shea-Brown (2011). The what and where of channel noise in the H
 >> plot(Y(:,1), Y(:,4)), title('Fraction of Open K channels vs. Time')
 ```
 
+---
 20150416 A minor typo fix sent by Josh Goldwyn where a matrix valued function AK (line 166) had its second row fixed from  
 `4*alphan(V), -3*alphan(V)-betan(V), 0 , 0, 0;`  
 corrected to  
 `4*alphan(V), -3*alphan(V)-betan(V), 2*betan(V), 0, 0;`
 
----
-
-2025-06-20: Converted README to Markdown.
+20250620 Converted README to Markdown.
